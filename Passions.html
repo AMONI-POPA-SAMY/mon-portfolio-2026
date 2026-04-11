@@ -1,41 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
+    <title>Mon portfolio | Passions</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div>
-           <a href="">Mon portfolio</a>
-           <link rel="stylesheet" href="CSS/style.css">
-           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-           <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            <a href="index.html">Samy Portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="Projets.htm">Projets</a></li>
-                <li><a href="Passions.html"class="active">Passions</a></li>
+                <li><a href="Passions.html" class="active">Passions</a></li>
                 <li><a href="Divertissement.html">Divertissement</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1> voici mes Passions</h1>
-     </main>
-  <footer>
-    <p>© 2026 Béni Sky. Tous droits réservés.</p>
-    <div>
-      <a href=""><i class="fa-brands fa-github"></i></a>
-      <a href=""><i class="fa-brands fa-linkedin"></i></a>
-      <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-    </div>
-  </footer>
+        <section class="passions">
+            <h2>L'univers de Samy 💜</h2>
+            <p class="intro">Derrière chaque ligne de code se cache une étincelle de curiosité.</p>
+
+            <div class="cards">
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=600&q=80" alt="Architecture">
+                    <h3>Géométrie Créative</h3>
+                    <p>Je vois le web comme un architecte voit une ville : une structure complexe où chaque détail compte pour l'équilibre du tout.</p>
+                    <span class="tags">Vision | Précision</span>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600&q=80" alt="IA">
+                    <h3>Horizons Synthétiques</h3>
+                    <p>L'intelligence artificielle n'est pas qu'un outil, c'est une nouvelle langue que j'apprends pour dialoguer avec le futur.</p>
+                    <span class="tags">IA | Innovation</span>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80" alt="Exploration">
+                    <h3>Odyssée Virtuelle</h3>
+                    <p>Toujours en quête de nouvelles technologies, je navigue dans l'immensité du digital pour dénicher les solutions de demain.</p>
+                    <span class="tags">Veille | Voyage</span>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop" alt="Design">
+                    <h3>Esthétique de l'Usage</h3>
+                    <p>Le design est l'âme du produit. Je m'efforce de créer des interfaces qui ne sont pas seulement belles, mais qui respirent l'évidence.</p>
+                    <span class="tags">Pixel Perfect | UX</span>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=600&q=80" alt="Ecriture">
+                    <h3>Mots et Résonance</h3>
+                    <p>Quand le clavier s'arrête de coder, ma plume prend le relais pour traduire mes pensées en récits et en réflexions.</p>
+                    <span class="tags">Pensées | Littérature</span>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80" alt="Musique">
+                    <h3>Vibrations Chill</h3>
+                    <p>La musique est mon carburant. C'est elle qui donne le rythme à mes sessions de code nocturnes et à mes rêves.</p>
+                    <span class="tags">Rythme | Sérénité</span>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>© 2026 Samy. Créateur d'expériences digitales.</p>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
 </body>
 </html>

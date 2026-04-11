@@ -28,44 +28,60 @@
         </nav>
     </header>
     <main class="contact-main">
-        <section class="contact-section">
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h2>Contactez-moi</h2>
-                    <p class="location"><i class="fa-solid fa-location-dot"></i> Lubumbashi, RDC</p>
-                    <p class="phone"><i class="fa-solid fa-phone"></i> +243 902 446 224</p>
-                    
-                    <div class="direct-links">
-                        <a href="https://wa.me/243902446224" target="_blank" class="btn-wa">
-                            <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                        </a>
-                        <a href="https://t.me/243902446224" target="_blank" class="btn-tg">
-                            <i class="fa-brands fa-telegram"></i> Telegram
-                        </a>
-                    </div>
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contactez-moi</h2>
+                <p class="intro-contact">Un projet en tête ou juste envie de discuter tech ? Je suis à votre écoute.</p>
+                
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Lubumbashi, RDC</span>
                 </div>
-
-                <div class="contact-form-box">
-                    <form action="#">
-                        <div class="input-group">
-                            <label for="nom">Nom complet</label>
-                            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
-                        </div>
-                        <div class="input-group">
-                            <label for="tel">Téléphone</label>
-                            <input type="tel" id="tel" name="tel" placeholder="+243..." required>
-                        </div>
-                        <button type="submit" class="send-btn">Envoyer le message</button>
-                    </form>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+243 992 237 813</span>
+                </div>
+                
+                <div class="direct-links">
+                    <a href="https://wa.me/243992237813" target="_blank" class="btn-wa">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://t.me/243992237813" target="_blank" class="btn-tg">
+                        <i class="fa-brands fa-telegram"></i> Telegram
+                    </a>
                 </div>
             </div>
-        </section>
-    </main>
+
+            <div class="contact-form-box">
+                <form action="#">
+                    <div class="input-group">
+                        <label for="nom"><i class="fa-solid fa-user"></i> Nom complet</label>
+                        <input type="text" id="nom" name="nom" placeholder="Ex: Samy ..." required>
+                    </div>
+                    <div class="input-group">
+                        <label for="tel"><i class="fa-solid fa-envelope"></i> Email ou Téléphone</label>
+                        <input type="text" id="tel" name="tel" placeholder="Comment vous recontacter ?" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message"><i class="fa-solid fa-pen"></i> Votre message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Dites-moi tout..."></textarea>
+                    </div>
+                    <button type="submit" class="send-btn">
+                        <span>Envoyer le message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+</main>
   <footer>
-    <p>© 2026 Béni Sky. Tous droits réservés.</p>
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-x-twitter"></i>
+    <div>
+    <p>© 2026 Samy. Tous droits réservés.</p>
+     <a href=""><i class="fa-brands fa-github"></i></a>
+     <a href=""><i class="fa-brands fa-linkedin"></i></a>
+     <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+     </div> 
   </footer>
 </body>
 </html>
